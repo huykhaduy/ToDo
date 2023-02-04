@@ -94,7 +94,7 @@ class View{
   }
 
   displayTodos(todos){
-    // This is why react using find different and change at diff
+    // Remove and re-render child
     while(this.todoList.firstChild){
       this.todoList.removeChild(this.todoList.firstChild);
     }
